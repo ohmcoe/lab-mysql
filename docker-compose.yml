@@ -1,8 +1,10 @@
 version: '3.2'
 services:
     mysql:
-        image: mysql
+        image: x.coe.phuket.psu.ac.th:8443/sakarin.k/mysql
+        #image: mysql
         volumes:
             - ./database:/var/lib/mysql
         environment:
             - MYSQL_ROOT_PASSWORD=123456789
+        container_name: mysql
