@@ -31,8 +31,8 @@ docker rm <CONTAINER_NAME>
 docker-compose up -d
 ```
 
-### ก่อนการใช้งานจำเป็นต้องแก้ docker-compose.yml ให้ถูกต้องตามสภาพแวดล้อมที่จะใช้งาน
-### ในกรณีเกิด error ให้ทำการลบ container เก่าที่ชื่อซ้ำกันออกก่อน
+**ก่อนการใช้งานจำเป็นต้องแก้ docker-compose.yml ให้ถูกต้องตามสภาพแวดล้อมที่จะใช้งาน**
+**ในกรณีเกิด error ให้ทำการลบ container เก่าที่ชื่อซ้ำกันออกก่อน**
 
 
 ## Stop mysql server
