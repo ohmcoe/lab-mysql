@@ -23,6 +23,7 @@ docker ps -a
 
 ```shell
 docker rm <CONTAINER_NAME>
+ex: docker rm -f mysql
 ```
 
 ## Start mysql server
@@ -45,4 +46,5 @@ docker-compose down
 
 ```shell
 docker exec -it <CONTAINER_NAME> <MYSQL_COMMAND>
+ex: docker exec -it mysql mysql -u root -p
 ```
